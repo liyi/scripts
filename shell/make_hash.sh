@@ -19,7 +19,7 @@ function hash_file(){
 function hash_dir(){
   for item in $2/*
   do
-    $0 $1 $item
+    $0 $1 "$item"
   done
 }
 
