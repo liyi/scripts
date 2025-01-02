@@ -11,15 +11,17 @@ echo 2. Windows 10/11 教育版
 echo 3. Windows 10/11 专业教育版
 echo 4. Windows 10/11 专业工作站版
 echo 5. Windows 10/11 企业版
-echo 6. Windows 10 企业版 LTSC 2021/2019
+echo 6. Windows 10/11 企业版 LTSC 2024/2021/2019
 echo 7. Windows 10 企业版 LTSB 2016
 echo 8. Windows 10 企业版 LTSB 2015
-echo 9. Windows Server 2022 数据中心版
-echo a. Windows Server 2022 标准版
-echo b. Windows Server 2019 数据中心版
-echo c. Windows Server 2019 标准版
-echo d. Windows Server 2016 数据中心版
-echo e. Windows Server 2016 标准版
+echo 9. Windows Server 2025 数据中心版
+echo a. Windows Server 2025 标准版
+echo b. Windows Server 2022 数据中心版
+echo c. Windows Server 2022 标准版
+echo d. Windows Server 2019 数据中心版
+echo e. Windows Server 2019 标准版
+echo f. Windows Server 2016 数据中心版
+echo g. Windows Server 2016 标准版
 echo --------------
 set /p os="请选择："
 if "%os%" == "1" set product_key=W269N-WFGWX-YVC9B-4J6C9-T83GX & goto :Activate
@@ -30,12 +32,14 @@ if "%os%" == "5" set product_key=NPPR9-FWDCX-D2C8J-H872K-2YT43 & goto :Activate
 if "%os%" == "6" set product_key=M7XTQ-FN8P6-TTKYV-9D4CC-J462D & goto :Activate
 if "%os%" == "7" set product_key=DCPHK-NFMTC-H88MJ-PFHPY-QJ4BJ & goto :Activate
 if "%os%" == "8" set product_key=WNMTR-4C88C-JK8YV-HQ7T2-76DF9 & goto :Activate
-if "%os%" == "9" set product_key=WX4NM-KYWYW-QJJR4-XV3QB-6VM33 & goto :Activate
-if "%os%" == "a" set product_key=VDYBN-27WPP-V4HQT-9VMD4-VMK7H & goto :Activate
-if "%os%" == "b" set product_key=WMDGN-G9PQG-XVVXX-R3X43-63DFG & goto :Activate
-if "%os%" == "c" set product_key=N69G4-B89J2-4G8F4-WWYCC-J464C & goto :Activate
-if "%os%" == "d" set product_key=CB7KF-BWN84-R7R2Y-793K2-8XDDG & goto :Activate
-if "%os%" == "e" set product_key=WC2BQ-8NRM3-FDDYY-2BFGV-KHKQY & goto :Activate
+if "%os%" == "9" set product_key=D764K-2NDRG-47T6Q-P8T8W-YP6DF & goto :Activate
+if "%os%" == "a" set product_key=TVRH6-WHNXV-R9WG3-9XRFY-MY832 & goto :Activate
+if "%os%" == "b" set product_key=WX4NM-KYWYW-QJJR4-XV3QB-6VM33 & goto :Activate
+if "%os%" == "c" set product_key=VDYBN-27WPP-V4HQT-9VMD4-VMK7H & goto :Activate
+if "%os%" == "d" set product_key=WMDGN-G9PQG-XVVXX-R3X43-63DFG & goto :Activate
+if "%os%" == "e" set product_key=N69G4-B89J2-4G8F4-WWYCC-J464C & goto :Activate
+if "%os%" == "f" set product_key=CB7KF-BWN84-R7R2Y-793K2-8XDDG & goto :Activate
+if "%os%" == "g" set product_key=WC2BQ-8NRM3-FDDYY-2BFGV-KHKQY & goto :Activate
 goto :menu
 
 :Activate
